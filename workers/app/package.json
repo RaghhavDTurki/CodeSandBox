@@ -1,0 +1,23 @@
+{
+  "name": "judge",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqp-connection-manager": "^4.1.10",
+    "amqplib": "^0.10.3",
+    "bail": "^2.0.2",
+    "ioredis": "^5.2.5",
+    "nodemon": "^2.0.20",
+    "rimraf": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
